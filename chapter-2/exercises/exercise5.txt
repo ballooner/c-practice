@@ -1,0 +1,10 @@
+Which of the following are not legal C identifiers?
+(a) 100_bottles
+(b) _100_bottles
+(c) one__hundred__bottles
+(d) bottles_by_the_hundred_
+
+a isn't legal
+b is legal but starting an identifier with an "_" isn't recommended.
+c is legal but having two underscores back-to-back isn't recommended.
+d is legal but you shouldn't end an identifier with an underscore.

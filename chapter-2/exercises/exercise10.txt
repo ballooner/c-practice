@@ -1,0 +1,3 @@
+In the dweight.c program (Section 2.4), which spaces are essential?
+
+The new line after the include directive, spaces between int and main, spaces between variable types and names and between return and 0 are all necessary.
