@@ -1,0 +1,13 @@
+For each of the following pairs of scanf format strings, indicate wheter or not the two strings are equivalent. If they're not, show how they can be distinguished.
+
+(a) "%d"       versus " %d"
+    Equivalent
+(b) "%d-%d-%d" versus "%d -%d -%d"
+    The first format expects the '-' right after it reads the last number so if "-10 -2" is entered it will fail to match it and put the -2 in the buffer to
+    be read by the next scanf.
+    The second format expects there to be at least one character of whitespace after the last character it reads, therefore it should work in the previous case.
+(c) "%f"       versus "%f "
+    The first statement will accept the number entered after hitting enter while the second statement will hang until a non-whitespace character is entered after
+    the first number is input.
+(d) "%f,%f"    versus "%f, %f"
+    Equivalent
