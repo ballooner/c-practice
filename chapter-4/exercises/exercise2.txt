@@ -1,0 +1,3 @@
+If i and j are positive integers, does (-i)/j always have the same value as -(i/j)? Justify your answer.
+They are always the same (in c99 truncation always rounds towards zero).
+In c89 computing (-i)/j will result in a negative number and if truncation is necessary it may round down or up.

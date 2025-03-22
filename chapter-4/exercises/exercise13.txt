@@ -1,0 +1,3 @@
+Only one of the expressions ++i and i++ is exactly the same as (i += 1); which is it? Justify your answer.
+
+++i is the same as i += 1 because they will both return the value of i AFTER adding 1. i++ will return the value of i and then increment the i variable by 1.

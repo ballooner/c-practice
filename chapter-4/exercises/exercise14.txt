@@ -1,0 +1,6 @@
+Supply parentheses to show how a C compuler would interpret each of the following expressions.
+
+(a) ((a * b) - (c * d)) + 3
+(b) ((a / b) % c) / d
+(c) (((- a) - b) + c) - (+ d)
+(d) ((a * (- b)) / c) - d
