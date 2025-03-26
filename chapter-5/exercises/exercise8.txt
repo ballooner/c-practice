@@ -1,0 +1,3 @@
+The following if statement is unnecessarily complicated. Simplify it as much as possible.
+
+teenager = age < 13 ? false : (age <= 19 ? true : false);

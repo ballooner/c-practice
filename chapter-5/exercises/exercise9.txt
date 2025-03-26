@@ -1,0 +1,3 @@
+Are the following if statements equivalent? If not, why not?
+
+They are equivalent.

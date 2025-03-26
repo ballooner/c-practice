@@ -1,0 +1,3 @@
+What does the following statement printf if i has teh value 17? What does it print if i has the value -17?
+
+It will produce 17 if i is either 17 or -17.

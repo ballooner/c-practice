@@ -1,0 +1,3 @@
+Is the following if statement legal? If so, what does it do when n is equal to 0?
+
+The statement is legal but it doesn't produce the value we want. When n is 0 it produces 1.
