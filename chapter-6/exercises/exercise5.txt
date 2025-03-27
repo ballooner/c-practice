@@ -1,0 +1,7 @@
+Which one of t he following statements is not equivalent to the other two (assuming the loop bodies are the same)?
+
+(a) while (i < 10)
+(b) for (; i < 10;)
+(c) do {} while (i < 10);
+
+Option c is not equivalent, because it will always loop through the body at least once, so if the initial value is already > 10 it will execute at least once.
