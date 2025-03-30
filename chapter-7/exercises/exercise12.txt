@@ -1,0 +1,4 @@
+Suppose that i is a variabel of type int, f is a variable of type float and d is a variable of type double. 
+Explain what conversions take place during the execution of the following statement.
+
+i is converted to float, then i + f is executed, then the value is converted to a double when stored into d.

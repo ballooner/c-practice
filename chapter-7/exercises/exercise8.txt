@@ -1,0 +1,11 @@
+For each of the following character escapes, give the equivalent hexadecimal escape. (Assume that the character set is ASCII.)
+You may wish to consult Appendix E, which lists the numerical codes for ASCII characters.
+
+(a) \b
+    \0x62
+(b) \n
+    \0x6E
+(c) \r
+    \0x72
+(d) \t
+    \0x74
