@@ -1,0 +1,12 @@
+Write a declaration for an 8x8 char array named chess_board that represents the starting positions of each piece. (White pieces should be capitalized).
+
+char chess_board[] = {
+    {'r', 'n', 'b', 'q', 'k', 'b', 'n', 'r'},
+    {'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'},
+    {},
+    {},
+    {},
+    {},
+    {'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'},
+    {'R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R'}
+};

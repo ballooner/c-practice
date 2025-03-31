@@ -1,0 +1,14 @@
+Use the shortcuts from Section 8.2 to shrink the initializer for Exercise 6 as much as possible.
+
+const in segments[10][7] = {
+    {1, 1, 1, 1, 1, 1},
+    {0, 1, 1},
+    {1, 1, 0, 1, 1, 0, 1},
+    {1, 1, 1, 1, [4][7] = 1},
+    {0, 1, 1, 0, 0, 1, 1},
+    {1, 0, 1, 1, 0, 1, 1},
+    {1, 0, 1, 1, 1, 1, 1},
+    {1, 1, 1},
+    {1, 1, 1, 1, 1, 1, 1},
+    {1, 1, 1, 1, 0, 1, 1}
+};

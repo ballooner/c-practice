@@ -1,0 +1,9 @@
+The Q&A section shows how to use a letter as an array subscript. Describe how to use a digit (in character form) as a subscript.
+
+All you would have to do was subtract the value of '0' to access the corresponding array indexes properly.
+
+For example:
+char num = '5';
+array['5' - '0'] = 0;
+
+Would set the array's fifth element (fourth index) to 0.
