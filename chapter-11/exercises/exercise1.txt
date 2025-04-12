@@ -1,0 +1,21 @@
+If i is a variable and p points to i, which of the following expressions
+are aliases for i?
+
+(a) *p
+    Not an alias as it represents the value of i.
+(b) &p
+    Not an alias as it represents the address of p.
+(c) *&p
+    This is an alias of i. &p gets the address that the pointer p is stored in
+    and then using * on &p will get the value that is stored in that address.
+(d) &*p
+    This is an alias of i. *p gets the value of the address that p points to
+    and then using & on *p will get the address of the value.
+(e) *i
+    This isn't an alias and also won't work.
+(f) &i
+    This is an alias for i as it gets the address that i is stored in.
+(g) *&i
+    This isn't an alias, it just does the same thing as typing 'i'.
+(h) &*i
+    This also doesn't work because *i isn't valid.

@@ -1,0 +1,26 @@
+If i is an int variable and p and q are pointers to int, which of
+the following assignments are legal?
+
+(a) p = i;
+    Illegal because p is a pointer and i isn't an addresss.
+(b) *p = &i;
+    Illegal because *p refers to the value of i and an int can't be set to 
+    an address.
+(c) &p = q;
+    Illegal because &p is an address and you can't assign a value to an address.
+(d) p = &q;
+    Illegal because q is a pointer to an int. It would work if we declared
+    p as a pointer to a pointer of an int. (int **p)
+(e) p = *&q;
+    Legal. This sets p equal to the address that q was pointing to. 
+    (Same as just writing p = q);
+(f) p = q;
+    Legal. Does the exact same thing as problem e.
+(g) p = *q;
+    Illegal. *q refers to the value that q is pointing to not the address,
+    and p is a pointer.
+(h) *p = q;
+    Illegal because *p is a pointer to an int, not a pointer to a pointer.
+(i) *p = *q;
+    Legal. You are copying the variable that q points to into the variable
+    that p points to.
