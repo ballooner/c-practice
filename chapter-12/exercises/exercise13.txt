@@ -1,0 +1,27 @@
+Section 8.2 had a program fragment in which two nested for loops initialized
+the array ident for use as an identity matrix. Rewrite this code using a single
+pointer to step through the array one element at a time. 
+
+#define N 10
+
+
+void init_ident(int n, double ident[n][n])
+{
+    int zeros = 0;
+    double *p = &ident[0][0];
+    *p = 1;
+
+    while (p++ < &ident[0][0] + n * n)
+    {
+     if (zeros == n)
+     {
+         *p = 1;
+         zeros = 0;
+     } else 
+     {
+         *p = 0;
+         zeros++;
+     }
+    }
+}
+

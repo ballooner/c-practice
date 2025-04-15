@@ -1,0 +1,15 @@
+Modify the find_largest function so that it uses pointer arithmetic,
+
+int find_largest(int a[], int n)
+{
+    int max;
+
+    max = a[0] 
+    for (int *p = &a[1]; p < &a[n]; p++)
+    {
+        if (*p > max)
+            max = *p; 
+    }
+
+    return max;
+}

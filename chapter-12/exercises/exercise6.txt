@@ -1,0 +1,13 @@
+Rewrite the following function to use pointer arithmetic instead of array
+subscripting. (In other words, eliminate the variabels i and all uses of 
+the [] operator.) Make as few changes as possible.
+
+int sum_array(const int a[], int n)
+{
+    int sum;
+
+    sum = 0;
+    for (int *p = &a[0]; p < &a[n]; p++)
+        sum += *p;
+    return sum;
+}
